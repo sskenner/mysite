@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
-ALLOWED_HOSTS = ['127.0.0.1','mysites-sskenner.c9users.io']
+ALLOWED_HOSTS = ['127.0.0.1','mysites-sskenner.c9users.io','s3static.herokuapp.com']
 
 # Application definition
 
