@@ -1,1 +1,1 @@
-run - pip install dj_database_url==0.4.1
+add config vars to heroku admin before push
